@@ -19,8 +19,8 @@ import (
 
 	auth "github.com/abbot/go-http-auth"
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/cmd/serve/http/data"
-	"github.com/rclone/rclone/fs"
+	"github.com/pingme998/rclone/cmd/serve/http/data"
+	"github.com/pingme998/rclone/fs"
 )
 
 // Globals
