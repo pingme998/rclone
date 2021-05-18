@@ -17,9 +17,9 @@ import (
 	"github.com/anacrolix/dms/dlna"
 	"github.com/anacrolix/dms/upnp"
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/cmd/serve/dlna/upnpav"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/vfs"
+	"github.com/pingme998/rclone/cmd/serve/dlna/upnpav"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/vfs"
 )
 
 // Add a minimal number of mime types to augment go's built in types
