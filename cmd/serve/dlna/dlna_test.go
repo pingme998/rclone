@@ -13,12 +13,12 @@ import (
 
 	"github.com/anacrolix/dms/soap"
 
-	"github.com/rclone/rclone/fs/config/configfile"
-	"github.com/rclone/rclone/vfs"
+	"github.com/pingme998/rclone/fs/config/configfile"
+	"github.com/pingme998/rclone/vfs"
 
-	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/cmd/serve/dlna/dlnaflags"
-	"github.com/rclone/rclone/fs"
+	_ "github.com/pingme998/rclone/backend/local"
+	"github.com/pingme998/rclone/cmd/serve/dlna/dlnaflags"
+	"github.com/pingme998/rclone/fs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
