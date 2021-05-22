@@ -8,8 +8,11 @@ import (
 	"sort"
 	"testing"
 
-
-	"github.com/stre/testify/require"
+	_ "github.com/pingme998/rclone/backend/local" // pull in test backend
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config"
+	"github.com/pingme998/rclone/fs/config/configfile"
+	"github.com/pingme998/testify/require"
 )
 
 var (
