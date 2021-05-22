@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/pingme998/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/fspath"
+	"github.com/pingme998/rclone/fs/cache"
+	"github.com/pingme998/rclone/fs/config/configmap"
+	"github.com/pingme998/rclone/fs/config/configstruct"
+	"github.com/pingme998/rclone/fs/fspath"
 )
 
 // Register with Fs
