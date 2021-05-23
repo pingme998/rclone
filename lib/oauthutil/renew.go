@@ -3,7 +3,7 @@ package oauthutil
 import (
 	"sync/atomic"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/pingme998/rclone/fs"
 )
 
 // Renew allows tokens to be renewed on expiry if uploads are in progress.

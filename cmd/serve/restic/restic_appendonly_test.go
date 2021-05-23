@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/serve/httplib/httpflags"
-	"github.com/rclone/rclone/fs/config/configfile"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/cmd/serve/httplib/httpflags"
+	"github.com/pingme998/rclone/fs/config/configfile"
 	"github.com/stretchr/testify/require"
 )
 

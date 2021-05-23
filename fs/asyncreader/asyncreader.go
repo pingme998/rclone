@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/lib/pool"
-	"github.com/rclone/rclone/lib/readers"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/lib/pool"
+	"github.com/pingme998/rclone/lib/readers"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	sysdjournald "github.com/iguanesolutions/go-systemd/v5/journald"
-	"github.com/rclone/rclone/fs"
+	"github.com/pingme998/rclone/fs"
 )
 
 // Enables systemd logs if configured or if auto detected

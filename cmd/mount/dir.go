@@ -11,10 +11,10 @@ import (
 	"bazil.org/fuse"
 	fusefs "bazil.org/fuse/fs"
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/vfs"
+	"github.com/pingme998/rclone/cmd/mountlib"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/log"
+	"github.com/pingme998/rclone/vfs"
 )
 
 // Dir represents a directory entry
@@ -209,7 +209,7 @@ func (d *Dir) Rename(ctx context.Context, req *fuse.RenameRequest, newDir fusefs
 	// Invalidate the new directory entry so it gets re-read (in
 	// the background otherwise we cause a deadlock)
 	//
-	// See https://github.com/rclone/rclone/issues/4977 for why
+	// See https://github.com/pingme998/rclone/issues/4977 for why
 	go d.invalidateEntry(newDir, req.NewName)
 	//go d.invalidateEntry(d, req.OldName)
 

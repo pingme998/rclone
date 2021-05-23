@@ -19,12 +19,12 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/pacer"
+	"github.com/pingme998/rclone/fs/config/configmap"
+	"github.com/pingme998/rclone/fs/config/configstruct"
+	"github.com/pingme998/rclone/fs/fserrors"
+	"github.com/pingme998/rclone/fs/fspath"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/lib/pacer"
 )
 
 // EntryType can be associated with remote paths to identify their type

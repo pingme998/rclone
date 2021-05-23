@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rclone/rclone/fstest/mockobject"
+	"github.com/pingme998/rclone/fstest/mockobject"
 	"github.com/stretchr/testify/assert"
 )
 

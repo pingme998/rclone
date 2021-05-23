@@ -96,7 +96,7 @@ func TestServeContent(t *testing.T) {
 
 // Check that ContentDirectory#Browse returns appropriate metadata on the root container.
 func TestContentDirectoryBrowseMetadata(t *testing.T) {
-	// Sample from: https://github.com/rclone/rclone/issues/3253#issuecomment-524317469
+	// Sample from: https://github.com/pingme998/rclone/issues/3253#issuecomment-524317469
 	req, err := http.NewRequest("POST", baseURL+serviceControlURL, strings.NewReader(`
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"

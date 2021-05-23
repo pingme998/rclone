@@ -9,8 +9,8 @@ import (
 
 	"github.com/aalpar/deheap"
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fserrors"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/fserrors"
 )
 
 // compare two items for order by

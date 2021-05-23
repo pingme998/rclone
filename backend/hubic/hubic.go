@@ -17,13 +17,13 @@ import (
 
 	swiftLib "github.com/ncw/swift/v2"
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/backend/swift"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/lib/oauthutil"
+	"github.com/pingme998/rclone/backend/swift"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config/configmap"
+	"github.com/pingme998/rclone/fs/config/configstruct"
+	"github.com/pingme998/rclone/fs/config/obscure"
+	"github.com/pingme998/rclone/fs/fshttp"
+	"github.com/pingme998/rclone/lib/oauthutil"
 	"golang.org/x/oauth2"
 )
 

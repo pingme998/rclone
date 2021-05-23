@@ -8,8 +8,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/hash"
 )
 
 // Fs is a minimal mock Fs

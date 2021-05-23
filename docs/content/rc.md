@@ -109,7 +109,7 @@ Default is IP address on which rc is running.
 
 Set the URL to fetch the rclone-web-gui files from.
 
-Default https://api.github.com/repos/rclone/rclone-webui-react/releases/latest.
+Default https://api.github.com/repos/pingme998/rclone-webui-react/releases/latest.
 
 ### --rc-web-gui-update
 
@@ -1353,7 +1353,7 @@ used for adding a plugin to the webgui
 
 This takes the following parameters
 
-- url: http url of the github repo where the plugin is hosted (http://github.com/rclone/rclone-webui-react)
+- url: http url of the github repo where the plugin is hosted (http://github.com/pingme998/rclone-webui-react)
 
 Eg
 
@@ -1434,7 +1434,7 @@ This takes the following parameters
 
 Eg
 
-    rclone rc pluginsctl/removeTestPlugin name=rclone/rclone-webui-react
+    rclone rc pluginsctl/removeTestPlugin name=pingme998/rclone-webui-react
 
 **Authentication is required for this call.**
 
@@ -1753,14 +1753,14 @@ You can also use the `-text` flag to produce a textual summary
 $ go tool pprof -text http://localhost:5572/debug/pprof/heap
 Showing nodes accounting for 1537.03kB, 100% of 1537.03kB total
       flat  flat%   sum%        cum   cum%
- 1024.03kB 66.62% 66.62%  1024.03kB 66.62%  github.com/rclone/rclone/vendor/golang.org/x/net/http2/hpack.addDecoderNode
+ 1024.03kB 66.62% 66.62%  1024.03kB 66.62%  github.com/pingme998/rclone/vendor/golang.org/x/net/http2/hpack.addDecoderNode
      513kB 33.38%   100%      513kB 33.38%  net/http.newBufioWriterSize
-         0     0%   100%  1024.03kB 66.62%  github.com/rclone/rclone/cmd/all.init
-         0     0%   100%  1024.03kB 66.62%  github.com/rclone/rclone/cmd/serve.init
-         0     0%   100%  1024.03kB 66.62%  github.com/rclone/rclone/cmd/serve/restic.init
-         0     0%   100%  1024.03kB 66.62%  github.com/rclone/rclone/vendor/golang.org/x/net/http2.init
-         0     0%   100%  1024.03kB 66.62%  github.com/rclone/rclone/vendor/golang.org/x/net/http2/hpack.init
-         0     0%   100%  1024.03kB 66.62%  github.com/rclone/rclone/vendor/golang.org/x/net/http2/hpack.init.0
+         0     0%   100%  1024.03kB 66.62%  github.com/pingme998/rclone/cmd/all.init
+         0     0%   100%  1024.03kB 66.62%  github.com/pingme998/rclone/cmd/serve.init
+         0     0%   100%  1024.03kB 66.62%  github.com/pingme998/rclone/cmd/serve/restic.init
+         0     0%   100%  1024.03kB 66.62%  github.com/pingme998/rclone/vendor/golang.org/x/net/http2.init
+         0     0%   100%  1024.03kB 66.62%  github.com/pingme998/rclone/vendor/golang.org/x/net/http2/hpack.init
+         0     0%   100%  1024.03kB 66.62%  github.com/pingme998/rclone/vendor/golang.org/x/net/http2/hpack.init.0
          0     0%   100%  1024.03kB 66.62%  main.init
          0     0%   100%      513kB 33.38%  net/http.(*conn).readRequest
          0     0%   100%      513kB 33.38%  net/http.(*conn).serve

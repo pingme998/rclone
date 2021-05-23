@@ -8,8 +8,8 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/filter"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/filter"
 )
 
 var (

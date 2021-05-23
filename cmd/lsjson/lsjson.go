@@ -7,10 +7,10 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/ls/lshelp"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/cmd/ls/lshelp"
+	"github.com/pingme998/rclone/fs/config/flags"
+	"github.com/pingme998/rclone/fs/operations"
 	"github.com/spf13/cobra"
 )
 

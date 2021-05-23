@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/lib/readers"
+	"github.com/pingme998/rclone/lib/readers"
 )
 
 // protocol errors

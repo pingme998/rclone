@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rclone/rclone/backend/webdav"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configfile"
-	"github.com/rclone/rclone/fs/config/configmap"
+	"github.com/pingme998/rclone/backend/webdav"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config/configfile"
+	"github.com/pingme998/rclone/fs/config/configmap"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

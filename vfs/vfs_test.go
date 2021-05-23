@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	_ "github.com/rclone/rclone/backend/all" // import all the backends
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	_ "github.com/pingme998/rclone/backend/all" // import all the backends
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fstest"
+	"github.com/pingme998/rclone/vfs/vfscommon"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

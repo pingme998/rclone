@@ -46,13 +46,13 @@ endif
 .PHONY: rclone test_all vars version
 
 rclone:
-	go build -v --ldflags "-s -X github.com/rclone/rclone/fs.Version=$(TAG)" $(BUILDTAGS) $(BUILD_ARGS)
+	go build -v --ldflags "-s -X github.com/pingme998/rclone/fs.Version=$(TAG)" $(BUILDTAGS) $(BUILD_ARGS)
 	mkdir -p `go env GOPATH`/bin/
 	cp -av rclone`go env GOEXE` `go env GOPATH`/bin/rclone`go env GOEXE`.new
 	mv -v `go env GOPATH`/bin/rclone`go env GOEXE`.new `go env GOPATH`/bin/rclone`go env GOEXE`
 
 test_all:
-	go install --ldflags "-s -X github.com/rclone/rclone/fs.Version=$(TAG)" $(BUILDTAGS) $(BUILD_ARGS) github.com/rclone/rclone/fstest/test_all
+	go install --ldflags "-s -X github.com/pingme998/rclone/fs.Version=$(TAG)" $(BUILDTAGS) $(BUILD_ARGS) github.com/pingme998/rclone/fstest/test_all
 
 vars:
 	@echo SHELL="'$(SHELL)'"
@@ -63,7 +63,7 @@ vars:
 	@echo BETA_URL="'$(BETA_URL)'"
 
 btest:
-	@echo "[$(TAG)]($(BETA_URL)) on branch [$(BRANCH)](https://github.com/rclone/rclone/tree/$(BRANCH)) (uploaded in 15-30 mins)" | xclip -r -sel clip
+	@echo "[$(TAG)]($(BETA_URL)) on branch [$(BRANCH)](https://github.com/pingme998/rclone/tree/$(BRANCH)) (uploaded in 15-30 mins)" | xclip -r -sel clip
 	@echo "Copied markdown of beta release to clip board"
 
 version:

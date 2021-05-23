@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/rclone/rclone/backend/local"
-	_ "github.com/rclone/rclone/cmd/cmount"
-	_ "github.com/rclone/rclone/cmd/mount"
-	_ "github.com/rclone/rclone/cmd/mount2"
-	"github.com/rclone/rclone/fs/config/configfile"
-	"github.com/rclone/rclone/fs/rc"
+	_ "github.com/pingme998/rclone/backend/local"
+	_ "github.com/pingme998/rclone/cmd/cmount"
+	_ "github.com/pingme998/rclone/cmd/mount"
+	_ "github.com/pingme998/rclone/cmd/mount2"
+	"github.com/pingme998/rclone/fs/config/configfile"
+	"github.com/pingme998/rclone/fs/rc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

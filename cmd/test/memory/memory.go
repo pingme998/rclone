@@ -5,10 +5,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/test"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/cmd/test"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/operations"
 	"github.com/spf13/cobra"
 )
 

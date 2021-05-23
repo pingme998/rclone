@@ -22,15 +22,15 @@ import (
 	"github.com/gabriel-vasile/mimetype"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/chunkedreader"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/accounting"
+	"github.com/pingme998/rclone/fs/chunkedreader"
+	"github.com/pingme998/rclone/fs/config/configmap"
+	"github.com/pingme998/rclone/fs/config/configstruct"
+	"github.com/pingme998/rclone/fs/fspath"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs/object"
+	"github.com/pingme998/rclone/fs/operations"
 )
 
 // Globals

@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/cmd/mountlib"
+	"github.com/pingme998/rclone/cmd/mountlib"
 )
 
 func getMountpoint(mountPath string, opt *mountlib.Options) (string, error) {

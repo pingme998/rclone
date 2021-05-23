@@ -22,16 +22,16 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/cmount"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/lib/buildinfo"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/cmd/cmount"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config/flags"
+	"github.com/pingme998/rclone/fs/fshttp"
+	"github.com/pingme998/rclone/lib/buildinfo"
+	"github.com/pingme998/rclone/lib/random"
 	"github.com/spf13/cobra"
 
-	versionCmd "github.com/rclone/rclone/cmd/version"
+	versionCmd "github.com/pingme998/rclone/cmd/version"
 )
 
 // Options contains options for the self-update command

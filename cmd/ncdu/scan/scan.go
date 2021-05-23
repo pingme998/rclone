@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/walk"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/walk"
 )
 
 // Dir represents a directory found in the remote

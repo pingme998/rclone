@@ -13,10 +13,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/rc/rcflags"
-	"github.com/rclone/rclone/lib/errors"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config"
+	"github.com/pingme998/rclone/fs/rc/rcflags"
+	"github.com/pingme998/rclone/lib/errors"
 )
 
 // PackageJSON is the structure of package.json of a plugin
@@ -228,10 +228,10 @@ func (p *Plugins) GetPluginByName(name string) (out *PackageJSON, err error) {
 
 // getAuthorRepoBranchGithub gives author, repoName and branch from a github.com url
 //	url examples:
-//	https://github.com/rclone/rclone-webui-react/
-//	http://github.com/rclone/rclone-webui-react
-//	https://github.com/rclone/rclone-webui-react/tree/caman-js
-// 	github.com/rclone/rclone-webui-react
+//	https://github.com/pingme998/rclone-webui-react/
+//	http://github.com/pingme998/rclone-webui-react
+//	https://github.com/pingme998/rclone-webui-react/tree/caman-js
+// 	github.com/pingme998/rclone-webui-react
 //
 func getAuthorRepoBranchGithub(url string) (author string, repoName string, branch string, err error) {
 	repoURL := url

@@ -12,14 +12,14 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/backend/union/policy"
-	"github.com/rclone/rclone/backend/union/upstream"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/walk"
+	"github.com/pingme998/rclone/backend/union/policy"
+	"github.com/pingme998/rclone/backend/union/upstream"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config/configmap"
+	"github.com/pingme998/rclone/fs/config/configstruct"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs/operations"
+	"github.com/pingme998/rclone/fs/walk"
 )
 
 // Register with Fs

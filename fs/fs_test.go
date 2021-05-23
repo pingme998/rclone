@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/lib/pacer"
+	"github.com/pingme998/rclone/fs/config/configmap"
+	"github.com/pingme998/rclone/fs/fserrors"
+	"github.com/pingme998/rclone/lib/pacer"
 	"github.com/stretchr/testify/assert"
 )
 

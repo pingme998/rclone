@@ -5,8 +5,8 @@ package config_test
 import (
 	"testing"
 
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configfile"
+	"github.com/pingme998/rclone/fs/config"
+	"github.com/pingme998/rclone/fs/config/configfile"
 	"github.com/stretchr/testify/assert"
 )
 

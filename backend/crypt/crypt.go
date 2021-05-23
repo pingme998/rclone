@@ -10,14 +10,14 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/accounting"
+	"github.com/pingme998/rclone/fs/cache"
+	"github.com/pingme998/rclone/fs/config/configmap"
+	"github.com/pingme998/rclone/fs/config/configstruct"
+	"github.com/pingme998/rclone/fs/config/obscure"
+	"github.com/pingme998/rclone/fs/fspath"
+	"github.com/pingme998/rclone/fs/hash"
 )
 
 // Globals

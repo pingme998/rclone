@@ -15,15 +15,15 @@ import (
 
 	sysdnotify "github.com/iguanesolutions/go-systemd/v5/notify"
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	fscache "github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/lib/file"
-	"github.com/rclone/rclone/vfs/vfscache/writeback"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/pingme998/rclone/fs"
+	fscache "github.com/pingme998/rclone/fs/cache"
+	"github.com/pingme998/rclone/fs/config"
+	"github.com/pingme998/rclone/fs/fserrors"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs/operations"
+	"github.com/pingme998/rclone/lib/file"
+	"github.com/pingme998/rclone/vfs/vfscache/writeback"
+	"github.com/pingme998/rclone/vfs/vfscommon"
 )
 
 // NB as Cache and Item are tightly linked it is necessary to have a

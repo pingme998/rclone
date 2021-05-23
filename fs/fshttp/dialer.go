@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/accounting"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
 )

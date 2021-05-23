@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fs/rc/rcflags"
+	"github.com/pingme998/rclone/fs/rc"
+	"github.com/pingme998/rclone/fs/rc/rcflags"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -15,17 +15,17 @@ import (
 	"syscall/js"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/rc"
 
 	// Core functionality we need
-	_ "github.com/rclone/rclone/fs/operations"
-	_ "github.com/rclone/rclone/fs/sync"
+	_ "github.com/pingme998/rclone/fs/operations"
+	_ "github.com/pingme998/rclone/fs/sync"
 
-	//	_ "github.com/rclone/rclone/backend/all" // import all backends
+	//	_ "github.com/pingme998/rclone/backend/all" // import all backends
 
 	// Backends
-	_ "github.com/rclone/rclone/backend/memory"
+	_ "github.com/pingme998/rclone/backend/memory"
 )
 
 var (

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/bucket"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/lib/bucket"
 	"golang.org/x/text/unicode/norm"
 
 	"storj.io/uplink"

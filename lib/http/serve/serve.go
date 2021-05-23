@@ -8,8 +8,8 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/accounting"
 )
 
 // Object serves an fs.Object via HEAD or GET

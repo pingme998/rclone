@@ -4,12 +4,12 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/backend/crypt"
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/check"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/pingme998/rclone/backend/crypt"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/cmd/check"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs/operations"
 	"github.com/spf13/cobra"
 )
 

@@ -12,19 +12,19 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/dircache"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/pacer"
-	"github.com/rclone/rclone/lib/readers"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config"
+	"github.com/pingme998/rclone/fs/config/configmap"
+	"github.com/pingme998/rclone/fs/config/configstruct"
+	"github.com/pingme998/rclone/fs/config/obscure"
+	"github.com/pingme998/rclone/fs/fserrors"
+	"github.com/pingme998/rclone/fs/fshttp"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/lib/dircache"
+	"github.com/pingme998/rclone/lib/encoder"
+	"github.com/pingme998/rclone/lib/pacer"
+	"github.com/pingme998/rclone/lib/readers"
+	"github.com/pingme998/rclone/lib/rest"
 )
 
 const (
@@ -244,7 +244,7 @@ func NewFs(ctx context.Context, name, root string, m configmap.Mapper) (fs.Fs, e
 		}
 		// XXX: update the old f here instead of returning tempF, since
 		// `features` were already filled with functions having *f as a receiver.
-		// See https://github.com/rclone/rclone/issues/2182
+		// See https://github.com/pingme998/rclone/issues/2182
 		f.dirCache = tempF.dirCache
 		f.root = tempF.root
 		// return an error with an fs which points to the parent

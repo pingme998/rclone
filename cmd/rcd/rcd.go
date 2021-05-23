@@ -6,10 +6,10 @@ import (
 	"sync"
 
 	sysdnotify "github.com/iguanesolutions/go-systemd/v5/notify"
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs/rc/rcflags"
-	"github.com/rclone/rclone/fs/rc/rcserver"
-	"github.com/rclone/rclone/lib/atexit"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/fs/rc/rcflags"
+	"github.com/pingme998/rclone/fs/rc/rcserver"
+	"github.com/pingme998/rclone/lib/atexit"
 	"github.com/spf13/cobra"
 )
 

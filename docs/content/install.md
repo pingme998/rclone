@@ -106,7 +106,7 @@ The simplest fix is to run
 
 ## Install with docker ##
 
-The rclone maintains a [docker image for rclone](https://hub.docker.com/r/rclone/rclone).
+The rclone maintains a [docker image for rclone](https://hub.docker.com/r/pingme998/rclone).
 These images are autobuilt by docker hub from the rclone source based
 on a minimal Alpine linux image.
 
@@ -115,11 +115,11 @@ can use the `:beta` tag to get the latest build from master.  You can
 also use version tags, e.g. `:1.49.1`, `:1.49` or `:1`.
 
 ```
-$ docker pull rclone/rclone:latest
-latest: Pulling from rclone/rclone
+$ docker pull pingme998/rclone:latest
+latest: Pulling from pingme998/rclone
 Digest: sha256:0e0ced72671989bb837fea8e88578b3fc48371aa45d209663683e24cfdaa0e11
 ...
-$ docker run --rm rclone/rclone:latest version
+$ docker run --rm pingme998/rclone:latest version
 rclone v1.49.1
 - os/arch: linux/amd64
 - go version: go1.12.9
@@ -158,7 +158,7 @@ from the rclone image.
 Here are some commands tested on an Ubuntu 18.04.3 host:
 
 ```
-# config on host at ~/.config/rclone/rclone.conf
+# config on host at ~/.config/pingme998/rclone.conf
 # data on host at ~/data
 
 # make sure the config is ok by listing the remotes
@@ -166,7 +166,7 @@ docker run --rm \
     --volume ~/.config/rclone:/config/rclone \
     --volume ~/data:/data:shared \
     --user $(id -u):$(id -g) \
-    rclone/rclone \
+    pingme998/rclone \
     listremotes
 
 # perform mount inside Docker container, expose result to host
@@ -177,7 +177,7 @@ docker run --rm \
     --user $(id -u):$(id -g) \
     --volume /etc/passwd:/etc/passwd:ro --volume /etc/group:/etc/group:ro \
     --device /dev/fuse --cap-add SYS_ADMIN --security-opt apparmor:unconfined \
-    rclone/rclone \
+    pingme998/rclone \
     mount dropbox:Photos /data/mount &
 ls ~/data/mount
 kill %1
@@ -189,7 +189,7 @@ Make sure you have at least [Go](https://golang.org/) go1.13
 installed.  [Download go](https://golang.org/dl/) if necessary.  The
 latest release is recommended. Then
 
-    git clone https://github.com/rclone/rclone.git
+    git clone https://github.com/pingme998/rclone.git
     cd rclone
     go build
     ./rclone version
@@ -200,11 +200,11 @@ the rclone build will have the correct version information in it.
 
 You can also build the latest stable rclone with:
 
-    go get github.com/rclone/rclone
+    go get github.com/pingme998/rclone
 
 or the latest version (equivalent to the beta) with
 
-    go get github.com/rclone/rclone@master
+    go get github.com/pingme998/rclone@master
 
 These will build the binary in `$(go env GOPATH)/bin`
 (`~/go/bin/rclone` by default) after downloading the source to the go
@@ -336,7 +336,7 @@ into its own launcher service, as kind of "child services". This has the additio
 advantage that it also implements a network provider that integrates into
 Windows standard methods for managing network drives. This is currently not
 officially supported by Rclone, but with WinFsp version 2019.3 B2 / v1.5B2 or later
-it should be possible through path rewriting as described [here](https://github.com/rclone/rclone/issues/3340).
+it should be possible through path rewriting as described [here](https://github.com/pingme998/rclone/issues/3340).
 
 #### Third party service integration ####
 

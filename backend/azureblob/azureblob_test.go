@@ -8,8 +8,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest/fstests"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fstest/fstests"
 	"github.com/stretchr/testify/assert"
 )
 

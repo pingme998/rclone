@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/lib/terminal"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/fserrors"
+	"github.com/pingme998/rclone/fs/rc"
+	"github.com/pingme998/rclone/lib/terminal"
 )
 
 // MaxCompletedTransfers specifies maximum number of completed transfers in startedTransfers list

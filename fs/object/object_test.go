@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/object"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs/object"
 	"github.com/stretchr/testify/assert"
 )
 

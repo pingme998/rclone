@@ -24,19 +24,19 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/testserver"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/random"
-	"github.com/rclone/rclone/lib/readers"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config"
+	"github.com/pingme998/rclone/fs/fserrors"
+	"github.com/pingme998/rclone/fs/fspath"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs/object"
+	"github.com/pingme998/rclone/fs/operations"
+	"github.com/pingme998/rclone/fs/walk"
+	"github.com/pingme998/rclone/fstest"
+	"github.com/pingme998/rclone/fstest/testserver"
+	"github.com/pingme998/rclone/lib/encoder"
+	"github.com/pingme998/rclone/lib/random"
+	"github.com/pingme998/rclone/lib/readers"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -1933,7 +1933,7 @@ func Run(t *testing.T, opt *Opt) {
 		// an object in that folder, whose name is taken from a directory that
 		// exists in the absolute root.
 		// This test is added after
-		// https://github.com/rclone/rclone/issues/3164.
+		// https://github.com/pingme998/rclone/issues/3164.
 		t.Run("FsRootCollapse", func(t *testing.T) {
 			deepRemoteName := subRemoteName + "/deeper/nonexisting/directory"
 			deepRemote, err := fs.NewFs(context.Background(), deepRemoteName)

@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/flags"
-	fsLog "github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config"
+	"github.com/pingme998/rclone/fs/config/flags"
+	fsLog "github.com/pingme998/rclone/fs/log"
+	"github.com/pingme998/rclone/fs/rc"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 )

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rclone/rclone/fs/config"
+	"github.com/pingme998/rclone/fs/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

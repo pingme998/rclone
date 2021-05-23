@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/lib/random"
-	"github.com/rclone/rclone/lib/readers"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fstest"
+	"github.com/pingme998/rclone/lib/random"
+	"github.com/pingme998/rclone/lib/readers"
+	"github.com/pingme998/rclone/vfs/vfscommon"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

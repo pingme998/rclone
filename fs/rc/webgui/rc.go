@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/rc"
 )
 
 func init() {
@@ -53,7 +53,7 @@ This takes the following parameters
 
 Eg
 
-    rclone rc pluginsctl/removeTestPlugin name=rclone/rclone-webui-react
+    rclone rc pluginsctl/removeTestPlugin name=pingme998/rclone-webui-react
 `,
 	})
 }
@@ -83,7 +83,7 @@ func init() {
 
 This takes the following parameters
 
-- url: http url of the github repo where the plugin is hosted (http://github.com/rclone/rclone-webui-react)
+- url: http url of the github repo where the plugin is hosted (http://github.com/pingme998/rclone-webui-react)
 
 Eg
 
@@ -123,7 +123,7 @@ func rcAddPlugin(_ context.Context, in rc.Params) (out rc.Params, err error) {
 	}
 
 	// fetch and package.json
-	// https://raw.githubusercontent.com/rclone/rclone-webui-react/master/package.json
+	// https://raw.githubusercontent.com/pingme998/rclone-webui-react/master/package.json
 
 	pluginID := fmt.Sprintf("%s/%s", author, repoName)
 
@@ -143,7 +143,7 @@ func rcAddPlugin(_ context.Context, in rc.Params) (out rc.Params, err error) {
 	// register in plugins
 
 	// download release and save in plugins/<author>/repo-name/app
-	// https://api.github.com/repos/rclone/rclone-webui-react/releases/latest
+	// https://api.github.com/repos/pingme998/rclone-webui-react/releases/latest
 	releaseURL, tag, _, err := GetLatestReleaseURL(fmt.Sprintf("https://api.github.com/repos/%s/%s/releases/%s", author, repoName, version))
 	if err != nil {
 		return nil, err

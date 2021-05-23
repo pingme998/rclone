@@ -9,12 +9,12 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/pingme998/rclone/fs/rc"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/asyncreader"
-	"github.com/rclone/rclone/fs/fserrors"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/asyncreader"
+	"github.com/pingme998/rclone/fs/fserrors"
 )
 
 // ErrorMaxTransferLimitReached defines error when transfer limit is reached.

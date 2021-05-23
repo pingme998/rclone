@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs/config"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/fs/config"
 	"github.com/stretchr/testify/assert"
 )
 

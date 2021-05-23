@@ -19,15 +19,15 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/rclone/rclone/backend/all" // import all the backends
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/lib/file"
-	"github.com/rclone/rclone/vfs"
-	"github.com/rclone/rclone/vfs/vfscommon"
-	"github.com/rclone/rclone/vfs/vfsflags"
+	_ "github.com/pingme998/rclone/backend/all" // import all the backends
+	"github.com/pingme998/rclone/cmd/mountlib"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/walk"
+	"github.com/pingme998/rclone/fstest"
+	"github.com/pingme998/rclone/lib/file"
+	"github.com/pingme998/rclone/vfs"
+	"github.com/pingme998/rclone/vfs/vfscommon"
+	"github.com/pingme998/rclone/vfs/vfsflags"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

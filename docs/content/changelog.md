@@ -7,7 +7,7 @@ description: "Rclone Changelog"
 
 ## v1.55.1 - 2021-04-26
 
-[See commits](https://github.com/rclone/rclone/compare/v1.55.0...v1.55.1)
+[See commits](https://github.com/pingme998/rclone/compare/v1.55.0...v1.55.1)
 
 * Bug Fixes
     * selfupdate
@@ -45,7 +45,7 @@ description: "Rclone Changelog"
 
 ## v1.55.0 - 2021-03-31
 
-[See commits](https://github.com/rclone/rclone/compare/v1.54.0...v1.55.0)
+[See commits](https://github.com/pingme998/rclone/compare/v1.54.0...v1.55.0)
 
 * New commands
     * [selfupdate](/commands/rclone_selfupdate/) (Ivan Andreev)
@@ -199,7 +199,7 @@ description: "Rclone Changelog"
 
 ## v1.54.1 - 2021-03-08
 
-[See commits](https://github.com/rclone/rclone/compare/v1.54.0...v1.54.1)
+[See commits](https://github.com/pingme998/rclone/compare/v1.54.0...v1.54.1)
 
 * Bug Fixes
     * accounting: Fix --bwlimit when up or down is off (Nick Craig-Wood)
@@ -236,7 +236,7 @@ description: "Rclone Changelog"
 
 ## v1.54.0 - 2021-02-02
 
-[See commits](https://github.com/rclone/rclone/compare/v1.53.0...v1.54.0)
+[See commits](https://github.com/pingme998/rclone/compare/v1.53.0...v1.54.0)
 
 * New backends
     * Compression remote (experimental) (buengese)
@@ -443,7 +443,7 @@ description: "Rclone Changelog"
 
 ## v1.53.4 - 2021-01-20
 
-[See commits](https://github.com/rclone/rclone/compare/v1.53.3...v1.53.4)
+[See commits](https://github.com/pingme998/rclone/compare/v1.53.3...v1.53.4)
 
 * Bug Fixes
     * accounting: Fix data race in Transferred() (Maciej Zimnoch)
@@ -487,12 +487,12 @@ description: "Rclone Changelog"
 
 ## v1.53.3 - 2020-11-19
 
-[See commits](https://github.com/rclone/rclone/compare/v1.53.2...v1.53.3)
+[See commits](https://github.com/pingme998/rclone/compare/v1.53.2...v1.53.3)
 
 * Bug Fixes
     * random: Fix incorrect use of math/rand instead of crypto/rand CVE-2020-28924 (Nick Craig-Wood)
         * Passwords you have generated with `rclone config` may be insecure
-        * See [issue #4783](https://github.com/rclone/rclone/issues/4783) for more details and a checking tool
+        * See [issue #4783](https://github.com/pingme998/rclone/issues/4783) for more details and a checking tool
     * random: Seed math/rand in one place with crypto strong seed (Nick Craig-Wood)
 * VFS
     * Fix vfs/refresh calls with fs= parameter (Nick Craig-Wood)
@@ -501,7 +501,7 @@ description: "Rclone Changelog"
 
 ## v1.53.2 - 2020-10-26
 
-[See commits](https://github.com/rclone/rclone/compare/v1.53.1...v1.53.2)
+[See commits](https://github.com/pingme998/rclone/compare/v1.53.1...v1.53.2)
 
 * Bug Fixes
     * acounting
@@ -551,7 +551,7 @@ description: "Rclone Changelog"
 
 ## v1.53.1 - 2020-09-13
 
-[See commits](https://github.com/rclone/rclone/compare/v1.53.0...v1.53.1)
+[See commits](https://github.com/pingme998/rclone/compare/v1.53.0...v1.53.1)
 
 * Bug Fixes
     * accounting: Remove new line from end of --stats-one-line display (Nick Craig-Wood)
@@ -581,7 +581,7 @@ description: "Rclone Changelog"
 
 ## v1.53.0 - 2020-09-02
 
-[See commits](https://github.com/rclone/rclone/compare/v1.52.0...v1.53.0)
+[See commits](https://github.com/pingme998/rclone/compare/v1.52.0...v1.53.0)
 
 * New Features
     * The [VFS layer](/commands/rclone_mount/#vfs-virtual-file-system) was heavily reworked for this release - see below for more details
@@ -758,7 +758,7 @@ description: "Rclone Changelog"
 
 ## v1.52.3 - 2020-08-07
 
-[See commits](https://github.com/rclone/rclone/compare/v1.52.2...v1.52.3)
+[See commits](https://github.com/pingme998/rclone/compare/v1.52.2...v1.52.3)
 
 * Bug Fixes
     * docs
@@ -788,7 +788,7 @@ description: "Rclone Changelog"
 
 ## v1.52.2 - 2020-06-24
 
-[See commits](https://github.com/rclone/rclone/compare/v1.52.1...v1.52.2)
+[See commits](https://github.com/pingme998/rclone/compare/v1.52.1...v1.52.2)
 
 * Bug Fixes
     * build
@@ -815,7 +815,7 @@ description: "Rclone Changelog"
 
 ## v1.52.1 - 2020-06-10
 
-[See commits](https://github.com/rclone/rclone/compare/v1.52.0...v1.52.1)
+[See commits](https://github.com/pingme998/rclone/compare/v1.52.0...v1.52.1)
 
 * Bug Fixes
     * lib/file: Fix SetSparse on Windows 7 which fixes downloads of files > 250MB (Nick Craig-Wood)
@@ -851,7 +851,7 @@ description: "Rclone Changelog"
 Special thanks to Martin Michlmayr for proof reading and correcting
 all the docs and Edward Barker for helping re-write the front page.
 
-[See commits](https://github.com/rclone/rclone/compare/v1.51.0...v1.52.0)
+[See commits](https://github.com/pingme998/rclone/compare/v1.51.0...v1.52.0)
 
 * New backends
     * [Tardigrade](/tardigrade/) backend for use with storj.io (Caleb Case)
@@ -1273,7 +1273,7 @@ all the docs and Edward Barker for helping re-write the front page.
         * Convert python scripts to python3 (Nick Craig-Wood)
         * Swap Azure/go-ansiterm for mattn/go-colorable (Nick Craig-Wood)
         * Dockerfile fixes (Matei David)
-        * Add [plugin support](https://github.com/rclone/rclone/blob/master/CONTRIBUTING.md#writing-a-plugin) for backends and commands (Richard Patel)
+        * Add [plugin support](https://github.com/pingme998/rclone/blob/master/CONTRIBUTING.md#writing-a-plugin) for backends and commands (Richard Patel)
     * config
         * Use alternating Red/Green in config to make more obvious (Nick Craig-Wood)
     * contrib

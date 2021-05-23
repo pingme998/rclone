@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/vfs"
-	"github.com/rclone/rclone/vfs/vfscommon"
-	"github.com/rclone/rclone/vfs/vfsflags"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/rc"
+	"github.com/pingme998/rclone/vfs"
+	"github.com/pingme998/rclone/vfs/vfscommon"
+	"github.com/pingme998/rclone/vfs/vfsflags"
 )
 
 // MountInfo defines the configuration for a mount

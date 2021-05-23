@@ -11,8 +11,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config/flags"
 )
 
 // Help describes the options for the serve package

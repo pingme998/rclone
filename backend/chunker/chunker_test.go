@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	_ "github.com/rclone/rclone/backend/all" // for integration tests
-	"github.com/rclone/rclone/backend/chunker"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
+	_ "github.com/pingme998/rclone/backend/all" // for integration tests
+	"github.com/pingme998/rclone/backend/chunker"
+	"github.com/pingme998/rclone/fstest"
+	"github.com/pingme998/rclone/fstest/fstests"
 )
 
 // Command line flags

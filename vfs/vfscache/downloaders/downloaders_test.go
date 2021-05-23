@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/lib/ranges"
-	"github.com/rclone/rclone/lib/readers"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	_ "github.com/pingme998/rclone/backend/local"
+	"github.com/pingme998/rclone/fs/operations"
+	"github.com/pingme998/rclone/fstest"
+	"github.com/pingme998/rclone/lib/ranges"
+	"github.com/pingme998/rclone/lib/readers"
+	"github.com/pingme998/rclone/vfs/vfscommon"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

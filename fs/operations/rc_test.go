@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/cache"
+	"github.com/pingme998/rclone/fs/operations"
+	"github.com/pingme998/rclone/fs/rc"
+	"github.com/pingme998/rclone/fstest"
+	"github.com/pingme998/rclone/lib/rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

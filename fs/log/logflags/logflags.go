@@ -2,9 +2,9 @@
 package logflags
 
 import (
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/pingme998/rclone/fs/config/flags"
+	"github.com/pingme998/rclone/fs/log"
+	"github.com/pingme998/rclone/fs/rc"
 	"github.com/spf13/pflag"
 )
 

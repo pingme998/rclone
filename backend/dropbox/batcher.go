@@ -15,9 +15,9 @@ import (
 	"github.com/dropbox/dropbox-sdk-go-unofficial/dropbox/async"
 	"github.com/dropbox/dropbox-sdk-go-unofficial/dropbox/files"
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/lib/atexit"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/fserrors"
+	"github.com/pingme998/rclone/lib/atexit"
 )
 
 const (

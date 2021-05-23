@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fspath"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/fspath"
 )
 
 var (

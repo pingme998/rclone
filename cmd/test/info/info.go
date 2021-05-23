@@ -20,14 +20,14 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/test"
-	"github.com/rclone/rclone/cmd/test/info/internal"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/cmd/test"
+	"github.com/pingme998/rclone/cmd/test/info/internal"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config/flags"
+	"github.com/pingme998/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs/object"
+	"github.com/pingme998/rclone/lib/random"
 	"github.com/spf13/cobra"
 )
 

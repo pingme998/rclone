@@ -7,11 +7,11 @@
 //
 // Build a shared library like this:
 //
-//     go build --buildmode=c-shared -o librclone.so github.com/rclone/rclone/librclone
+//     go build --buildmode=c-shared -o librclone.so github.com/pingme998/rclone/librclone
 //
 // Build a static library like this:
 //
-//     go build --buildmode=c-archive -o librclone.a github.com/rclone/rclone/librclone
+//     go build --buildmode=c-archive -o librclone.a github.com/pingme998/rclone/librclone
 //
 // Both the above commands will also generate `librclone.h` which should
 // be `#include`d in `C` programs wishing to use the library.
@@ -28,10 +28,10 @@ struct RcloneRPCResult {
 import "C"
 
 import (
-	"github.com/rclone/rclone/librclone/librclone"
+	"github.com/pingme998/rclone/librclone/librclone"
 
-	_ "github.com/rclone/rclone/backend/all" // import all backends
-	_ "github.com/rclone/rclone/lib/plugin"  // import plugins
+	_ "github.com/pingme998/rclone/backend/all" // import all backends
+	_ "github.com/pingme998/rclone/lib/plugin"  // import plugins
 )
 
 // RcloneInitialize initializes rclone as a library

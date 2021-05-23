@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/rclone/rclone/lib/file"
+	"github.com/pingme998/rclone/lib/file"
 )
 
 // Interprets err into a vfs error

@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/rclone/rclone/backend/cache"
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs"
+	"github.com/pingme998/rclone/backend/cache"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/fs"
 	"github.com/spf13/cobra"
 )
 

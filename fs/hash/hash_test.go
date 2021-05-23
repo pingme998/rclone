@@ -6,7 +6,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/rclone/rclone/fs/hash"
+	"github.com/pingme998/rclone/fs/hash"
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

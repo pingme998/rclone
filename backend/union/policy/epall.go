@@ -5,8 +5,8 @@ import (
 	"path"
 	"sync"
 
-	"github.com/rclone/rclone/backend/union/upstream"
-	"github.com/rclone/rclone/fs"
+	"github.com/pingme998/rclone/backend/union/upstream"
+	"github.com/pingme998/rclone/fs"
 )
 
 func init() {

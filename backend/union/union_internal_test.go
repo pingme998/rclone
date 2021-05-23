@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/pingme998/rclone/fs/object"
+	"github.com/pingme998/rclone/fstest"
+	"github.com/pingme998/rclone/fstest/fstests"
+	"github.com/pingme998/rclone/lib/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

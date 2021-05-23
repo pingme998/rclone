@@ -3,8 +3,8 @@ package dirtree
 import (
 	"testing"
 
-	"github.com/rclone/rclone/fstest/mockdir"
-	"github.com/rclone/rclone/fstest/mockobject"
+	"github.com/pingme998/rclone/fstest/mockdir"
+	"github.com/pingme998/rclone/fstest/mockobject"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

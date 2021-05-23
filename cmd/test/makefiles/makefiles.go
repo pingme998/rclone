@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/test"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/cmd/test"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/config/flags"
+	"github.com/pingme998/rclone/lib/random"
 	"github.com/spf13/cobra"
 )
 

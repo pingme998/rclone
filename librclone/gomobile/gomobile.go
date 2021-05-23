@@ -2,10 +2,10 @@
 package gomobile
 
 import (
-	"github.com/rclone/rclone/librclone/librclone"
+	"github.com/pingme998/rclone/librclone/librclone"
 
-	_ "github.com/rclone/rclone/backend/all" // import all backends
-	_ "github.com/rclone/rclone/lib/plugin"  // import plugins
+	_ "github.com/pingme998/rclone/backend/all" // import all backends
+	_ "github.com/pingme998/rclone/lib/plugin"  // import plugins
 )
 
 // RcloneInitialize initializes rclone as a library

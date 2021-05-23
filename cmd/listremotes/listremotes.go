@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/flags"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/fs/config"
+	"github.com/pingme998/rclone/fs/config/flags"
 	"github.com/spf13/cobra"
 )
 

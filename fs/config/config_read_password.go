@@ -11,7 +11,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/rclone/rclone/lib/terminal"
+	"github.com/pingme998/rclone/lib/terminal"
 )
 
 // ReadPassword reads a password without echoing it to the terminal.

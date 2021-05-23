@@ -88,7 +88,7 @@ docker run --rm --privileged docker/binfmt:820fdd95a9972a5308930a2bdfb8573dd4447
 docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
 SUPPORTED_PLATFORMS=$(docker buildx inspect --bootstrap | grep 'Platforms:*.*' | cut -d : -f2,3)
 echo "Supported platforms: $SUPPORTED_PLATFORMS"
-docker buildx build --platform linux/amd64,linux/386,linux/arm64,linux/arm/v7 -t rclone/rclone:1.54.1 -t rclone/rclone:1.54 -t rclone/rclone:1 -t rclone/rclone:latest --push .
+docker buildx build --platform linux/amd64,linux/386,linux/arm64,linux/arm/v7 -t pingme998/rclone:1.54.1 -t pingme998/rclone:1.54 -t pingme998/rclone:1 -t pingme998/rclone:latest --push .
 docker buildx stop actions_builder
 ```
 
@@ -96,9 +96,9 @@ docker buildx stop actions_builder
 
 ```
 docker pull golang
-docker build --rm --ulimit memlock=67108864  -t rclone/rclone:1.52.0 -t rclone/rclone:1.52 -t rclone/rclone:1 -t rclone/rclone:latest .
-docker push rclone/rclone:1.52.0
-docker push rclone/rclone:1.52
-docker push rclone/rclone:1
-docker push rclone/rclone:latest
+docker build --rm --ulimit memlock=67108864  -t pingme998/rclone:1.52.0 -t pingme998/rclone:1.52 -t pingme998/rclone:1 -t pingme998/rclone:latest .
+docker push pingme998/rclone:1.52.0
+docker push pingme998/rclone:1.52
+docker push pingme998/rclone:1
+docker push pingme998/rclone:latest
 ```

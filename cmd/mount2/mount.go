@@ -11,9 +11,9 @@ import (
 
 	fusefs "github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/vfs"
+	"github.com/pingme998/rclone/cmd/mountlib"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/vfs"
 )
 
 func init() {

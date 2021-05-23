@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/lib/http"
+	"github.com/pingme998/rclone/fs/config/flags"
+	"github.com/pingme998/rclone/lib/http"
 	"github.com/spf13/pflag"
 )
 

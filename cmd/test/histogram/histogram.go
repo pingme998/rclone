@@ -7,10 +7,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/test"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/walk"
+	"github.com/pingme998/rclone/cmd"
+	"github.com/pingme998/rclone/cmd/test"
+	"github.com/pingme998/rclone/fs"
+	"github.com/pingme998/rclone/fs/walk"
 	"github.com/spf13/cobra"
 )
 
